@@ -18,5 +18,6 @@ jobs:
                 node-version: '21'
              - name: check Node version
                run: node --version
-             - name : run the hello world 
-               run : console.log("hello my name is sushant");  
+             - name : run the node  
+               run : node 
+            
