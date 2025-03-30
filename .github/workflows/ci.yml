@@ -21,5 +21,5 @@ jobs:
              - name : run the node  
                run : node 
              - name : hello world 
-               run : console.log("hello"); 
+               run :  node -e "console.log('Hello, world!');"
             
