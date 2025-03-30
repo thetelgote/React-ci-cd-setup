@@ -20,4 +20,6 @@ jobs:
                run: node --version
              - name : run the node  
                run : node 
+             - name : hello world 
+               run : console.log("hello"); 
             
