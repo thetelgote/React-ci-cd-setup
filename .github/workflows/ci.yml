@@ -28,8 +28,11 @@ jobs:
                
              -  name : Clone the repository 
                 uses : actions/checkout@v2
-                
+
              -   name : install dependencies 
                  run:  npm install
+
+             -   name : list the directories
+                 run : ls     
 
             
